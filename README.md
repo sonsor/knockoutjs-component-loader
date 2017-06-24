@@ -1,7 +1,7 @@
-# knockoutjs-component-loader
+## knockoutjs-component-loader
 This can take tcomponet name html file path and js files path and register a component for you.
 
-# Examplate code
+## Code Example
 <script>
 
 var test = new SonsorTemplate('test-component', {
