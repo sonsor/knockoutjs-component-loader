@@ -2,13 +2,11 @@
 This can take tcomponet name html file path and js files path and register a component for you.
 
 ## Code Example
-<script>
 var test = new SonsorTemplate('test-component', {
             html: 'path to html file',
             js: ['path of arrays of js files'],
             viewModelName: 'your view model name'
         });
-</script>
 then put this tag on you html where you wanna use
 <test-component></test-component>
 
