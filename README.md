@@ -3,7 +3,6 @@ This can take tcomponet name html file path and js files path and register a com
 
 ## Code Example
 <script>
-
 var test = new SonsorTemplate('test-component', {
             html: 'path to html file',
             js: ['path of arrays of js files'],
