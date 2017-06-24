@@ -11,7 +11,7 @@ var test = new SonsorTemplate('test-component', {
 then put this tag on you html where you wanna use
 <test-component></test-component>
 
-@ Hooks
+## Hooks
 This also provice ready hook when you html and js files are loaded and binded
 as in above example you can use hoo like
 ```javascript
