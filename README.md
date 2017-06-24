@@ -8,6 +8,7 @@ var test = new SonsorTemplate('test-component', {
             js: ['path of arrays of js files'],
             viewModelName: 'your view model name'
         });
+```
 then put this tag on you html where you wanna use
 <test-component></test-component>
 
@@ -18,3 +19,4 @@ as in above example you can use hoo like
 test.ready(function() {
     console.log("componenet is ready");
 });
+```
