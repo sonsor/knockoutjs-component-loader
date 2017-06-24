@@ -2,6 +2,7 @@
 This can take tcomponet name html file path and js files path and register a component for you.
 
 ## Code Example
+```javascript
 var test = new SonsorTemplate('test-component', {
             html: 'path to html file',
             js: ['path of arrays of js files'],
@@ -13,6 +14,7 @@ then put this tag on you html where you wanna use
 @ Hooks
 This also provice ready hook when you html and js files are loaded and binded
 as in above example you can use hoo like
+```javascript
 test.ready(function() {
     console.log("componenet is ready");
 });
